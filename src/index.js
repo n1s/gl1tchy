@@ -1,7 +1,7 @@
 import { CoinGeckoClient } from './gecko.js';
 //import { CoinGeckoClient } from 'https://deno.land/x/coingeckoapi@0.0.11f/src/index.ts';
 import { Bot, session, InlineKeyboard, webhookCallback } from "https://deno.land/x/grammy@v1.1.6/mod.ts";
-import "https://deno.land/x/dotenv/load.ts";
+//import "https://deno.land/x/dotenv/load.ts";
 
 const { files, diagnostics } = await Deno.emit("./index.js", {
     compilerOptions: {
